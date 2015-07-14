@@ -32,5 +32,8 @@
   "scripts": {
     "test": "gulp"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "http-proxy": "^1.11.1"
+  }
 }
