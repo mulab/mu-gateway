@@ -5,5 +5,6 @@ import muGateway from '../lib';
 describe('mu-gateway',  () => {
   it('should have createServer function', () => {
     assert(muGateway.createServer !== undefined);
+    assert(muGateway.createServer.length === 1);
   });
 });
