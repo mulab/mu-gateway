@@ -1,0 +1,36 @@
+{
+  "name": "mu-gateway",
+  "version": "0.0.0",
+  "description": "A configurable gateway",
+  "homepage": "https://github.com/mulab/mu-gateway",
+  "repository": "mulab/mu-gateway",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "keywords": [
+    "gateway",
+    "proxy"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-jscs": "^1.1.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "jshint-stylish": "^1.0.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-babel": "^5.1.0",
+    "babel-core": "^5.5.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "license": "Apache-2.0"
+}
