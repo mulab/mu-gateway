@@ -22,7 +22,7 @@
   "disallowMultipleLineBreaks": true,
   "disallowKeywordsOnNewLine": ["else"],
   "requireLineFeedAtFileEnd": true,
-  "excludeFiles": ["node_modules/**", "coverage/**"],
+  "excludeFiles": ["node_modules/**", "coverage/**", "dist/**"],
   "validateIndentation": 2,
   "esnext": true
 }
