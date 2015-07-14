@@ -6,6 +6,7 @@ Configurable route gateway with authentication and authorization
 ```config.js
 export default {
   "target": "<protocol>://<hostname>:<port>[path]",
+  "dbUrl": "mongodb://<host>:<port>/<name>",
   "default": function(method, user) {
     if (method === 'GET') return true;
     return false;
