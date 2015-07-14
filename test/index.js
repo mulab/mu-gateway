@@ -4,7 +4,7 @@ import muGateway from '../lib';
 
 describe('mu-gateway',  () => {
   it('should have createServer function', () => {
-    assert(muGateway.createServer !== undefined);
-    assert(muGateway.createServer.length === 1);
+    assert.notStrictEqual(muGateway.createServer, undefined);
+    assert.strictEqual(muGateway.createServer.length, 1);
   });
 });
